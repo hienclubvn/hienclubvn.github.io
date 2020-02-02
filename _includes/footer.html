@@ -1,0 +1,36 @@
+<footer class="site-footer">
+
+
+    <div class="wrapper">
+
+        <p class="description">
+            <!-- {% if site.description_footer %} {{site.description_footer}} {% endif %} -->
+            Blog dùng để ghi lại những kiến thức về kỹ thuật điện tử.
+            <span class="power">Theme được Edit bởi <a href="https://github.com/hienclubvn">Đăng Hiền Ngô</a> </span>.
+        </p>
+        <p class="contact">
+            Thông tin Liên hệ: 
+            {% if site.github_username %}
+                <a href="https://github.com/{{site.github_username}}" title="GitHub"><i class="fa fa-github" aria-hidden="true"></i></a> {% endif %} 
+            {% if site.email %}
+                <a href="mailto:{{site.email}}" title="email"><i class="fa fa-envelope-o" aria-hidden="true"></i></a> {% endif %} 
+            {% if site.twitter_username %}
+                <a href="https://twitter.com/{{site.twitter_username}}" title="Twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a> {% endif %}
+            {% if site.facebook_username %}
+                <a href="https://www.facebook.com/{{site.facebook_username}}" title="Facebook"><i class="fa fa-facebook-official" aria-hidden="true"></i></a> {% endif %}  
+            {% if site.linkedIn_username %}
+            <a href="https://www.linkedin.com/in/{{site.linkedIn_username}}" title="LinkedIn"><i class="fa fa-linkedin" aria-hidden="true"></i></a> {% endif %} 
+            {% if site.youtube_username %}
+            <a href="https://www.youtube.com/{{site.youtube_username}}" title="Youtube"><i class="fa fa-youtube-square" aria-hidden="true"></i></a> {% endif %}           
+        </p>
+        <!-- <p class="power">
+            <span>
+                Blog được cung cấp bởi <a href="https://jekyllrb.com/">Jekyll</a> & <a href="https://pages.github.com/">Github Pages</a>.
+            </span>
+            <span>
+                Theme được sửa đổi bởi <a href="https://github.com/hienclubvn">Đăng Hiền Ngô</a>.
+            </span>
+        </p> -->
+    </div>
+</footer>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
